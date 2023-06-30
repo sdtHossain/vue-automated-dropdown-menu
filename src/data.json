@@ -1,0 +1,54 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Menu 1",
+      "submenu": [
+        {
+          "id": 1,
+          "title": "Submenu 1",
+          "submenu": [
+            {
+              "id": 1,
+              "title": "Sub submenu 1"
+            },
+            {
+              "id": 2,
+              "title": "Sub submenu 2",
+              "submenu": [
+                {
+                  "id": 1,
+                  "title": "triple sub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Submenu 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Menu 2",
+      "submenu": [
+        {
+          "id": 1,
+          "title": "menu2 submenu 1"
+        },
+        {
+          "id": 2,
+          "title": "menu2 submenu 2",
+          "submenu": [
+            {
+              "id": 1,
+              "title": "triple sub"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

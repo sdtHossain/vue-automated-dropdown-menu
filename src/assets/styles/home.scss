@@ -1,0 +1,45 @@
+// Banner Section
+.home-banner {
+  background: url('/src/assets/images/img_man-section-top.webp') no-repeat right top;
+  background-size: cover;
+  background-position-x: 300px;
+}
+
+// rating
+.rating {
+  input {
+    appearance: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+// dropdown menu
+
+.nav-menu {
+  width: fit-content;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.dropdown-nav-menu {
+  position: relative;
+  min-width: 140px;
+}
+
+.submenu {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.dropdown-nav-menu:hover > .submenu {
+  visibility: visible;
+  height: auto;
+  width: auto;
+  z-index: 999;
+  left: 100%;
+  top: 0;
+  text-wrap: nowrap;
+}
